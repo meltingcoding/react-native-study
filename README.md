@@ -11,10 +11,16 @@ RN으로 어플 만들기 스터디
 - 커맨드라인에 `git clone {위에서 복사한 url}`을 입력합니다.
 ## 3. branch 만들기
 - `git branch -b {MY_BRANCH_NAME}`을 통해 브랜치를 만들 수 있습니다.
-## 4. 수정한 코드를 Github에 올리기.
+## 4. 만든 브랜치에서 작업을 해주세요.
+## 5. 작업 내용 확정(Commit)하기
+- git add를 통해서 확정 준비 단계로 파일들을 올려주세요. 이 준비 단계를 stage(혹은 index) 라고 합니다.
+- `git add {확정 준비할 파일}`
+- 현재 있는 폴더의 모든 변경 사항들을 확정 준비하려면 `git add .`
+- 준비되어있는 모든 파일을 확정하기 : `git commit -m "{커밋 이름}"`
+## 5. 수정&확정한 코드를 Github에 올리기.
 - 새 브랜치를 올릴 때는 `git push -u origin {MY_BRANCH_NAME}`
 - `git push` : 한번 올린 적 있는 브랜치를 업데이트 하기
-## 5. Pull Request 열기 (나 이거 수정했는데, 합쳐주세요~)
+## 4. Pull Request 열기 (나 이거 수정했는데, 합쳐주세요~)
 - Pull Request 탭에 가서 직접해보기!
 
 ### + 궁금한거있으면 슬랙 채널로 고고
